@@ -6,7 +6,7 @@ const Loader = () => {
         >
             <svg
                 aria-hidden="true"
-                className="w-28 h-28 mr-2 text-violet animate-spin dark:text-gray-100 fill-black"
+                className="w-12 h-12 mr-2 text-violet animate-spin dark:text-gray-100 fill-black"
                 viewBox="0 0 100 101"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
