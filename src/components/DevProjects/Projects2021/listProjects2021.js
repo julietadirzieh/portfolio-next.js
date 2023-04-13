@@ -2,7 +2,7 @@ const listProjects2021 =
     [{
         src: "/videos/glovo.gif",
         name: "Glovo España",
-        link: "http://www.farmachain.com/",
+        link: "https://delivered.glovoapp.com/#second",
         description: "HTML5, CSS y Javascript",
     },
     {
