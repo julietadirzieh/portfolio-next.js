@@ -1,7 +1,7 @@
 const listProjects2022 =
     [
         {
-            src: "/videos/maradona.gif",
+            src: "/images/maradona.webp",
             name: "M10 Memorial",
             link: "https://m10.ar/",
             description: "React JS, Vite y Tailwind CSS",
