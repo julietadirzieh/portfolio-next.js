@@ -6,23 +6,19 @@ import React, { useState } from "react";
 const Project = ({ data }) => {
     const { src, name, description, link
     } = data
-    const [loading, setLoading] = useState(true)
-    const handleImageLoad = () => {
-        setLoading(false);
-    };
+    /*     const [loading, setLoading] = useState(false) */
+
+
     return (
         <div className="text-center mx-auto items-center justify-center">
-            {loading ? (
+            {/*             {loading &&
                 <Loader />
-            ) : null}
-            <Image
+            } */}
+            <img
                 src={src}
-                width={500}
-                height={500}
                 alt="gif de la pagina"
                 className="rounded-xl my-3"
-                onLoad={handleImageLoad}
-                style={{ opacity: loading ? 0 : 1 }}
+            /*                 onLoadedData={() => setLoading(false)} */
             />
             <Link
                 href={link}
