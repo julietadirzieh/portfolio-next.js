@@ -8,7 +8,7 @@ const listProjects2023 =
     {
         src: "/videos/hometoshow.gif",
         name: "Home to Show",
-        link: "https://hometoshow.netlify.app/",
+        link: "https://hometoshow.com.ar/",
         description: "HTML5, CSS, Javascript y Bootstrap",
     },
     {
