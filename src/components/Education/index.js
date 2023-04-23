@@ -4,7 +4,7 @@ import Courses from './Courses'
 import { useTranslation } from 'next-i18next'
 
 const Education = () => {
-    const { t } = useTranslation('education')
+    const { t } = useTranslation()
     return (
         <>
             <Title caption={t("education")} />

@@ -25,8 +25,8 @@ const Aside = () => {
             </Link>
             <nav className="flex flex-row md:flex-col items-center relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative">
                 <ul className="flex flex-row md:flex-col flex-wrap items-center justify-center gap-5 mx-auto p-8">
-                    <NavLink link="/education">Education</NavLink>
-                    <NavLink link="/skills">Skills</NavLink>
+                    <NavLink link="/education">{t("education")}</NavLink>
+                    <NavLink link="/skills">{t("skills")}</NavLink>
                     <NavLink link="/2023">2023</NavLink>
                     <NavLink link="/2022">2022</NavLink>
                     <NavLink link="/2021">2021</NavLink>

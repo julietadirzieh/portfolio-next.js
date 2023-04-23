@@ -25,7 +25,7 @@ export async function getStaticProps({ locale }) {
     props: {
       ...(await serverSideTranslations(
         locale,
-        ['education'],
+        ['education', 'common'],
         nextI18nextConfig
       )),
     },
