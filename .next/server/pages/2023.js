@@ -29,8 +29,8 @@ var serverSideTranslations_ = __webpack_require__(5460);
 var DevProjects = __webpack_require__(5111);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
-// EXTERNAL MODULE: ./src/components/DevProjects/Project/index.js + 1 modules
-var Project = __webpack_require__(3041);
+// EXTERNAL MODULE: ./src/components/DevProjects/Project/index.js
+var Project = __webpack_require__(4581);
 ;// CONCATENATED MODULE: ./src/components/DevProjects/Projects2023/listProjects2023.js
 const listProjects2023 = [
     {
@@ -54,8 +54,14 @@ const listProjects2023 = [
     {
         src: "/videos/1981textil.gif",
         name: "1981 Textil",
-        link: "http://1981textil.com/",
+        link: "https://1981textil.com/",
         description: "Tienda Online Wordpress"
+    },
+    {
+        src: "/videos/camilagalante.gif",
+        name: "Camila Galante",
+        link: "https://psicamilagalante.com/",
+        description: "Wordpress"
     }
 ];
 /* harmony default export */ const Projects2023_listProjects2023 = (listProjects2023);
@@ -318,7 +324,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [636,61,440,717], () => (__webpack_exec__(5497)));
+var __webpack_exports__ = __webpack_require__.X(0, [636,61,440,471], () => (__webpack_exec__(5497)));
 module.exports = __webpack_exports__;
 
 })();

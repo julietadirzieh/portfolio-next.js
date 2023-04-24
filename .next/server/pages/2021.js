@@ -29,8 +29,8 @@ var serverSideTranslations_ = __webpack_require__(5460);
 var DevProjects = __webpack_require__(5111);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
-// EXTERNAL MODULE: ./src/components/DevProjects/Project/index.js + 1 modules
-var Project = __webpack_require__(3041);
+// EXTERNAL MODULE: ./src/components/DevProjects/Project/index.js
+var Project = __webpack_require__(4581);
 ;// CONCATENATED MODULE: ./src/components/DevProjects/Projects2021/listProjects2021.js
 const listProjects2021 = [
     {
@@ -48,7 +48,7 @@ const listProjects2021 = [
     {
         src: "/videos/farmachain.gif",
         name: "FarmaChain",
-        link: "http://www.farmachain.com/",
+        link: "https://www.farmachain.com/",
         description: "HTML5, CSS, Javascript y Bootstrap"
     }
 ];
@@ -312,7 +312,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [636,61,440,717], () => (__webpack_exec__(2118)));
+var __webpack_exports__ = __webpack_require__.X(0, [636,61,440,471], () => (__webpack_exec__(2118)));
 module.exports = __webpack_exports__;
 
 })();

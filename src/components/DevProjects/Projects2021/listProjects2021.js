@@ -14,7 +14,7 @@ const listProjects2021 =
     {
         src: "/videos/farmachain.gif",
         name: "FarmaChain",
-        link: "http://www.farmachain.com/",
+        link: "https://www.farmachain.com/",
         description: "HTML5, CSS, Javascript y Bootstrap",
     },
 

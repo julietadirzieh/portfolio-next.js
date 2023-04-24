@@ -119,23 +119,23 @@ const DevSkills = ()=>{
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx(DevSkills_Skills, {}),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "mt-6 grid grid-cols-2",
+                        className: "mt-6 grid grid-cols-1 md:grid-cols-2",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                 className: "text-center md:text-left font-bold text-lg p-2",
-                                children: "Git"
+                                children: "\xb7 Git"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                 className: "text-center md:text-left font-bold text-lg p-2",
-                                children: "Tailwind CSS y Bootstrap"
+                                children: "\xb7 Tailwind CSS y Bootstrap"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                 className: "text-center md:text-left font-bold text-lg p-2",
-                                children: "Redux Toolkit"
+                                children: "\xb7 Redux Toolkit"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                 className: "text-center md:text-left font-bold text-lg p-2",
-                                children: "MySQL, MongoDB y FireBase"
+                                children: "\xb7 MySQL, MongoDB y FireBase"
                             })
                         ]
                     })

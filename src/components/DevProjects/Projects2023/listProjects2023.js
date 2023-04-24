@@ -20,8 +20,14 @@ const listProjects2023 =
     {
         src: "/videos/1981textil.gif",
         name: "1981 Textil",
-        link: "http://1981textil.com/",
+        link: "https://1981textil.com/",
         description: "Tienda Online Wordpress",
+    },
+    {
+        src: "/videos/camilagalante.gif",
+        name: "Camila Galante",
+        link: "https://psicamilagalante.com/",
+        description: "Wordpress",
     },
     ]
 export default listProjects2023;
