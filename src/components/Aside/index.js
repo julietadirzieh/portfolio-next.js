@@ -7,7 +7,7 @@ import Link from "next/link";
 const Aside = () => {
     const { t } = useTranslation('common')
     return (
-        <aside className="bg-gray-100 md:w-[220px] md:h-[500px] md:flex-shrink-0 md:mx-0 md:px-0 text-center rounded-xl p-4">
+        <aside className="bg-gray-100 md:w-[220px] h-full md:h-screen md:flex-shrink-0 md:mx-0 md:px-0 text-center rounded-xl p-8">
             <Translations />
             <Link href="/" className="text-center text-violet hover:text-neutral-400 transition duration-500 md:text-base text-xs uppercase my-auto">
                 <Image

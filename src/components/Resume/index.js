@@ -10,7 +10,7 @@ const Resume = () => {
     const { t } = useTranslation('home')
     return (
         <>
-            <div className="grid grid-cols-1 md:grid-cols-3 px-12 md:px-0 md:justify-center mt-2 gap-4 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-5 px-12 md:px-0 md:justify-center mt-2 gap-4 items-cente pl-12">
                 <Image
                     src="/images/julieta.jpeg"
                     alt="Picture of the author"

@@ -7,11 +7,11 @@ import nextI18nextConfig from '../../next-i18next.config'
 
 export default function Home() {
   return (
-    <div className="max-w-4xl flex flex-col md:flex-row mx-auto mt-8 md:mt-20 lg:mt-32">
+    <div className="max-w-full flex flex-col md:flex-row mx-4 lg:mx-auto">
       <Aside />
       <HeadLinks />
-      <main className='flex-auto mt-6 md:mt-0 flex flex-col px-2 md:px-0'>
-        <section className='text-gray-400 pl-0 md:pl-12'>
+      <main className='flex-auto mt-6 md:mt-0 flex flex-col px-2 pt-6'>
+        <section className='text-gray-400 px-0 md:px-12 lg:pr-32'>
           <Title caption="Julieta Dirzieh" />
           <Resume />
         </section>

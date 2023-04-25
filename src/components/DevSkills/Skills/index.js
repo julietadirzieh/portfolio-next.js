@@ -5,7 +5,7 @@ import skills from "./skills";
 const Skills = () => {
 
     return (
-        <div className="w-full pb-6 grid grid-cols-3 gap-6">
+        <div className="w-full pb-6 grid grid-cols-3 gap-6 my-4">
             {skills.map((card, index) => {
                 return (
                     <Skill

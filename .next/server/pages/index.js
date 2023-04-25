@@ -86,7 +86,7 @@ const ContactLink = ({ link , src  })=>{
 
 const ContactLinks = ({ children  })=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-        className: "text-gray-400 text-center my-3 md:my-0 md:text-left flex justify-center md:justify-start",
+        className: "text-gray-400 text-center my-3 md:my-0 md:text-left flex justify-center md:justify-start mb-8 md:mb-0",
         children: children
     });
 };
@@ -106,7 +106,7 @@ const Resume = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "grid grid-cols-1 md:grid-cols-3 px-12 md:px-0 md:justify-center mt-2 gap-4 items-center",
+                className: "grid grid-cols-1 md:grid-cols-5 px-12 md:px-0 md:justify-center mt-2 gap-4 items-cente pl-12",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         src: "/images/julieta.jpeg",
@@ -171,14 +171,14 @@ var next_i18next_config_default = /*#__PURE__*/__webpack_require__.n(next_i18nex
 
 function Home() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "max-w-4xl flex flex-col md:flex-row mx-auto mt-8 md:mt-20 lg:mt-32",
+        className: "max-w-full flex flex-col md:flex-row mx-4 lg:mx-auto",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(Aside/* default */.Z, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(HeadLinks/* default */.Z, {}),
             /*#__PURE__*/ jsx_runtime_.jsx("main", {
-                className: "flex-auto mt-6 md:mt-0 flex flex-col px-2 md:px-0",
+                className: "flex-auto mt-6 md:mt-0 flex flex-col px-2 pt-6",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-                    className: "text-gray-400 pl-0 md:pl-12",
+                    className: "text-gray-400 px-0 md:px-12 lg:pr-32",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(Title/* default */.Z, {
                             caption: "Julieta Dirzieh"

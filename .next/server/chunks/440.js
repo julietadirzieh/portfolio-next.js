@@ -99,7 +99,7 @@ function Translations() {
 const Aside = ()=>{
     const { t  } = (0,external_next_i18next_.useTranslation)("common");
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("aside", {
-        className: "bg-gray-100 md:w-[220px] md:h-[500px] md:flex-shrink-0 md:mx-0 md:px-0 text-center rounded-xl p-4",
+        className: "bg-gray-100 md:w-[220px] h-full md:h-screen md:flex-shrink-0 md:mx-0 md:px-0 text-center rounded-xl p-8",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(Translations, {}),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {

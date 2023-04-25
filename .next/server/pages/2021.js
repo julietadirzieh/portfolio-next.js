@@ -43,13 +43,13 @@ const listProjects2021 = [
         src: "/videos/since1981.gif",
         name: "Since 1981 Textil",
         link: "https://github.com/julietadirzieh/since1981rjs",
-        description: "HTML5, CSS, Javascript y Bootstrap"
+        description: "HTML5, CSS y Javascript"
     },
     {
         src: "/videos/farmachain.gif",
         name: "FarmaChain",
         link: "https://www.farmachain.com/",
-        description: "HTML5, CSS, Javascript y Bootstrap"
+        description: "HTML5, CSS y Javascript"
     }
 ];
 /* harmony default export */ const Projects2021_listProjects2021 = (listProjects2021);
@@ -61,7 +61,7 @@ const listProjects2021 = [
 
 const ProjectsDev2021 = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "w-full pb-6 grid grid-cols-1 md:grid-cols-2 gap-6",
+        className: "w-full pb-6 grid grid-cols-1 md:grid-cols-3 gap-6",
         children: Projects2021_listProjects2021.map((data, index)=>{
             return /*#__PURE__*/ jsx_runtime_.jsx(Project/* default */.Z, {
                 data: data
@@ -85,14 +85,14 @@ var next_i18next_config_default = /*#__PURE__*/__webpack_require__.n(next_i18nex
 function Projects() {
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "max-w-4xl flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto",
+            className: "max-w-full flex flex-col md:flex-row mx-4 lg:mx-auto",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx(Aside/* default */.Z, {}),
                 /*#__PURE__*/ jsx_runtime_.jsx(HeadLinks/* default */.Z, {}),
                 /*#__PURE__*/ jsx_runtime_.jsx("main", {
-                    className: "flex-auto mt-6 md:mt-0 flex flex-col px-2 md:px-0",
+                    className: "flex-auto mt-6 md:mt-0 flex flex-col px-2 pt-6",
                     children: /*#__PURE__*/ jsx_runtime_.jsx("section", {
-                        className: "text-gray-400 pl-0 md:pl-12",
+                        className: "text-gray-400 px-0 md:px-12",
                         children: /*#__PURE__*/ jsx_runtime_.jsx(DevProjects/* default */.Z, {
                             year: "2021",
                             children: /*#__PURE__*/ jsx_runtime_.jsx(Projects2021, {})

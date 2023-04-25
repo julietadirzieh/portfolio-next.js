@@ -32,7 +32,7 @@ var Title = __webpack_require__(3668);
 
 const Course = ({ name , institution , year  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-        className: "my-2 text-center md:text-left",
+        className: "my-4 text-center md:text-left",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                 className: "font-bold text-xl",
@@ -76,7 +76,7 @@ const Courses = ()=>{
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(Education_Course, {
                 name: t("backend"),
-                year: "En curso",
+                year: "2023",
                 institution: "CoderHouse"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Education_Course, {
@@ -146,12 +146,12 @@ var next_i18next_config_default = /*#__PURE__*/__webpack_require__.n(next_i18nex
 function Skills() {
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "max-w-4xl flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto",
+            className: "max-w-full flex flex-col md:flex-row mx-4 lg:mx-auto",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx(Aside/* default */.Z, {}),
                 /*#__PURE__*/ jsx_runtime_.jsx(HeadLinks/* default */.Z, {}),
                 /*#__PURE__*/ jsx_runtime_.jsx("main", {
-                    className: "flex-auto mt-6 md:mt-0 flex flex-col px-2 md:px-0",
+                    className: "flex-auto mt-6 md:mt-0 flex flex-col px-2 pt-6",
                     children: /*#__PURE__*/ jsx_runtime_.jsx("section", {
                         className: "text-gray-400 pl-0 md:pl-12",
                         children: /*#__PURE__*/ jsx_runtime_.jsx(components_Education, {})

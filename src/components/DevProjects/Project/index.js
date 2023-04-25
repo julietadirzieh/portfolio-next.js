@@ -8,7 +8,7 @@ const Project = ({ data }) => {
 
 
     return (
-        <div className="text-center mx-auto items-center justify-center">
+        <div className="flex flex-col items-start">
             {/*             {loading &&
                 <Loader />
             } */}
@@ -26,7 +26,7 @@ const Project = ({ data }) => {
                 />
                 {name}
             </Link>
-            <div className="text-base">{description}</div>
+            <div className="text-base text-center mx-auto">{description}</div>
         </div >
     );
 };

@@ -21,7 +21,7 @@ exports.modules = {
 const Project = ({ data  })=>{
     const { src , name , description , link  } = data;
     /*     const [loading, setLoading] = useState(false) */ return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "text-center mx-auto items-center justify-center",
+        className: "flex flex-col items-start",
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                 href: link,
@@ -38,7 +38,7 @@ const Project = ({ data  })=>{
                 ]
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "text-base",
+                className: "text-base text-center mx-auto",
                 children: description
             })
         ]
@@ -74,7 +74,7 @@ const DevProjects = ({ children , year  })=>{
                 caption: `${t("projects")} - ${year}`
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "mt-4 mb-8",
+                className: "my-4",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     children: children
                 })

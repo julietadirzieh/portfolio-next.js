@@ -47,7 +47,7 @@ const listProjects2022 = [
         src: "/videos/hamui.gif",
         name: "Mago Ariel Hamui",
         link: "https://arielhamui.com/",
-        description: "HTML5, CSS, Javascript y Bootstrap"
+        description: "HTML5, CSS y Javascript"
     },
     {
         src: "/videos/happyhacking.gif",
@@ -65,7 +65,7 @@ const listProjects2022 = [
 
 const ProjectsDev2022 = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "w-full pb-6 grid grid-cols-1 md:grid-cols-2 gap-6",
+        className: "w-full pb-6 grid grid-cols-1 md:grid-cols-3 gap-6",
         children: Projects2022_listProjects2022.map((data, index)=>{
             return /*#__PURE__*/ jsx_runtime_.jsx(Project/* default */.Z, {
                 data: data
@@ -91,14 +91,14 @@ var serverSideTranslations_ = __webpack_require__(5460);
 function Projects() {
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "max-w-4xl flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto",
+            className: "max-w-full flex flex-col md:flex-row mx-4 lg:mx-auto",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx(Aside/* default */.Z, {}),
                 /*#__PURE__*/ jsx_runtime_.jsx(HeadLinks/* default */.Z, {}),
                 /*#__PURE__*/ jsx_runtime_.jsx("main", {
-                    className: "flex-auto mt-6 md:mt-0 flex flex-col px-2 md:px-0",
+                    className: "flex-auto mt-6 md:mt-0 flex flex-col px-2 pt-6",
                     children: /*#__PURE__*/ jsx_runtime_.jsx("section", {
-                        className: "text-gray-400 pl-0 md:pl-12",
+                        className: "text-gray-400 px-0 md:px-12",
                         children: /*#__PURE__*/ jsx_runtime_.jsx(DevProjects/* default */.Z, {
                             year: "2022",
                             children: /*#__PURE__*/ jsx_runtime_.jsx(Projects2022, {})

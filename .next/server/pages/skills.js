@@ -86,7 +86,7 @@ const skills = [
 
 const Skills = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "w-full pb-6 grid grid-cols-3 gap-6",
+        className: "w-full pb-6 grid grid-cols-3 gap-6 my-4",
         children: Skills_skills.map((card, index)=>{
             return /*#__PURE__*/ jsx_runtime_.jsx(DevSkills_Skill, {
                 img: card.src,
@@ -115,11 +115,11 @@ const DevSkills = ()=>{
                 caption: t("skills")
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "mt-4 mb-8",
+                className: "mt-8",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx(DevSkills_Skills, {}),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "mt-6 grid grid-cols-1 md:grid-cols-2",
+                        className: "mt-2 md:mt-6 grid grid-cols-1 md:grid-cols-2 gap-6",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                 className: "text-center md:text-left font-bold text-lg p-2",
@@ -163,12 +163,12 @@ var next_i18next_config_default = /*#__PURE__*/__webpack_require__.n(next_i18nex
 function skills_Skills() {
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "max-w-4xl flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto",
+            className: "max-w-full flex flex-col md:flex-row mx-4 lg:mx-auto",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx(Aside/* default */.Z, {}),
                 /*#__PURE__*/ jsx_runtime_.jsx(HeadLinks/* default */.Z, {}),
                 /*#__PURE__*/ jsx_runtime_.jsx("main", {
-                    className: "flex-auto mt-6 md:mt-0 flex flex-col px-2 md:px-0",
+                    className: "flex-auto mt-6 md:mt-0 flex flex-col px-2 pt-6",
                     children: /*#__PURE__*/ jsx_runtime_.jsx("section", {
                         className: "text-gray-400 pl-0 md:pl-12",
                         children: /*#__PURE__*/ jsx_runtime_.jsx(components_DevSkills, {})

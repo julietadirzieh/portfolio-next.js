@@ -7,7 +7,7 @@ const DevProjects = ({ children, year }) => {
     return (
         <>
             <Title caption={`${t("projects")} - ${year}`} />
-            <div className='mt-4 mb-8'>
+            <div className='my-4'>
                 <div>{children}</div>
             </div>
         </>

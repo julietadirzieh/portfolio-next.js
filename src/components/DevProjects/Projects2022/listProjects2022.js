@@ -16,7 +16,7 @@ const listProjects2022 =
             src: "/videos/hamui.gif",
             name: "Mago Ariel Hamui",
             link: "https://arielhamui.com/",
-            description: "HTML5, CSS, Javascript y Bootstrap",
+            description: "HTML5, CSS y Javascript",
         },
         {
             src: "/videos/happyhacking.gif",
