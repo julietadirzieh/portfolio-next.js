@@ -8,7 +8,7 @@ export default function Translations() {
     };
 
     return (
-        <div className='mx-auto mb-4 flex justify-center'>
+        <div className='mx-auto md:my-8 flex justify-center'>
             <button
                 className={`mx-1 px-1 font-bold text-gray-400 ${router.locale === 'es' ? "bold" : "font-thin"}`}
                 onClick={() => changeLang('es')}

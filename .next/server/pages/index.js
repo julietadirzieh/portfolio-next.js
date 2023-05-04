@@ -5,7 +5,7 @@ exports.id = 405;
 exports.ids = [405];
 exports.modules = {
 
-/***/ 5575:
+/***/ 2:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -19,8 +19,8 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./src/components/Aside/index.js + 2 modules
-var Aside = __webpack_require__(4127);
+// EXTERNAL MODULE: ./src/components/Aside/index.js + 4 modules
+var Aside = __webpack_require__(4829);
 // EXTERNAL MODULE: ./src/components/HeadLinks/index.js
 var HeadLinks = __webpack_require__(380);
 // EXTERNAL MODULE: ./node_modules/next/image.js
@@ -32,7 +32,7 @@ var external_react_ = __webpack_require__(6689);
 
 const DataLinks = ({ children  })=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-        className: "text-gray-400 text-center my-3 md:my-0 md:text-left md:col-span-2",
+        className: "text-gray-400 text-center my-3 md:my-auto md:text-left md:col-span-2",
         children: children
     });
 };
@@ -59,42 +59,7 @@ const DataLink = ({ link , children , className  })=>{
 
 // EXTERNAL MODULE: external "next-i18next"
 var external_next_i18next_ = __webpack_require__(1377);
-;// CONCATENATED MODULE: ./src/components/Resume/ContactLinks/ContactLink/index.js
-
-
-
-const ContactLink = ({ link , src  })=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("li", {
-        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-            href: link,
-            className: "text-gray-400 hover:text-violet px-4 text-base text-center md:text-left",
-            "aria-label": "Ir a la p\xe1gina",
-            target: "_blank",
-            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: src,
-                alt: "Picture of the author",
-                height: 150,
-                width: 150,
-                className: "inline mt-2 mx-auto md:mx-0 w-7 h-7 "
-            })
-        })
-    });
-};
-/* harmony default export */ const ContactLinks_ContactLink = (ContactLink);
-
-;// CONCATENATED MODULE: ./src/components/Resume/ContactLinks/index.js
-
-const ContactLinks = ({ children  })=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-        className: "text-gray-400 text-center my-3 md:my-0 md:text-left flex justify-center md:justify-start mb-8 md:mb-0",
-        children: children
-    });
-};
-/* harmony default export */ const Resume_ContactLinks = (ContactLinks);
-
 ;// CONCATENATED MODULE: ./src/components/Resume/index.js
-
-
 
 
 
@@ -132,22 +97,6 @@ const Resume = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                 className: "text-xl mt-6 px-12 md:px-0 text-justify mb-12",
                 children: t("bio")
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Resume_ContactLinks, {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(ContactLinks_ContactLink, {
-                        link: "https://www.linkedin.com/in/julieta-erika-dirzieh-59b50a159/",
-                        src: "/icons/linkedin.svg"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(ContactLinks_ContactLink, {
-                        link: "mailto:julidirzieh@gmail.com",
-                        src: "/icons/mail.svg"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(ContactLinks_ContactLink, {
-                        link: "https://api.whatsapp.com/send?phone=5491158125574",
-                        src: "/icons/telefono.svg"
-                    })
-                ]
             })
         ]
     });
@@ -171,7 +120,7 @@ var next_i18next_config_default = /*#__PURE__*/__webpack_require__.n(next_i18nex
 
 function Home() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "max-w-full flex flex-col md:flex-row mx-4 lg:mx-auto",
+        className: "max-w-full items-center flex flex-col md:flex-row mx-4 lg:mx-auto",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(Aside/* default */.Z, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(HeadLinks/* default */.Z, {}),
@@ -400,7 +349,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [636,61,440], () => (__webpack_exec__(5575)));
+var __webpack_exports__ = __webpack_require__.X(0, [636,61,345], () => (__webpack_exec__(2)));
 module.exports = __webpack_exports__;
 
 })();

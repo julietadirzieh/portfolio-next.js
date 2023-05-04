@@ -1,6 +1,6 @@
 "use strict";
-exports.id = 440;
-exports.ids = [440];
+exports.id = 345;
+exports.ids = [345];
 exports.modules = {
 
 /***/ 3479:
@@ -21,7 +21,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4127:
+/***/ 4829:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -69,7 +69,7 @@ function Translations() {
         });
     };
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "mx-auto mb-4 flex justify-center",
+        className: "mx-auto md:my-8 flex justify-center",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("button", {
                 className: `mx-1 px-1 font-bold text-gray-400 ${router.locale === "es" ? "bold" : "font-thin"}`,
@@ -89,7 +89,42 @@ function Translations() {
     });
 }
 
+;// CONCATENATED MODULE: ./src/components/Resume/ContactLinks/index.js
+
+const ContactLinks = ({ children  })=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+        className: "text-gray-400 text-center mt-8 md:text-left flex justify-center mb-2",
+        children: children
+    });
+};
+/* harmony default export */ const Resume_ContactLinks = (ContactLinks);
+
+;// CONCATENATED MODULE: ./src/components/Resume/ContactLinks/ContactLink/index.js
+
+
+
+const ContactLink = ({ link , src  })=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("li", {
+        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+            href: link,
+            className: "text-gray-400 hover:text-violet px-4 text-base text-center md:text-left",
+            "aria-label": "Ir a la p\xe1gina",
+            target: "_blank",
+            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                src: src,
+                alt: "Picture of the author",
+                height: 150,
+                width: 150,
+                className: "inline mt-2 mx-auto md:mx-0 w-7 h-7 "
+            })
+        })
+    });
+};
+/* harmony default export */ const ContactLinks_ContactLink = (ContactLink);
+
 ;// CONCATENATED MODULE: ./src/components/Aside/index.js
+
+
 
 
 
@@ -120,9 +155,9 @@ const Aside = ()=>{
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("nav", {
-                className: "flex flex-row md:flex-col items-center relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative",
+                className: "flex flex-row md:flex-col items-center relative px-4 md:px-0 pb-0 fade md:overflow-auto md:relative",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                    className: "flex flex-row md:flex-col flex-wrap items-center justify-center gap-5 mx-auto p-8",
+                    className: "flex flex-row md:flex-col flex-wrap items-center justify-center gap-5 mx-auto pt-8 md:p-8",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(Aside_NavLink, {
                             link: "/education",
@@ -146,6 +181,22 @@ const Aside = ()=>{
                         })
                     ]
                 })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Resume_ContactLinks, {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(ContactLinks_ContactLink, {
+                        link: "https://www.linkedin.com/in/julieta-erika-dirzieh-59b50a159/",
+                        src: "/icons/linkedin.svg"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(ContactLinks_ContactLink, {
+                        link: "mailto:julidirzieh@gmail.com",
+                        src: "/icons/mail.svg"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(ContactLinks_ContactLink, {
+                        link: "https://api.whatsapp.com/send?phone=5491158125574",
+                        src: "/icons/whatsapp.svg"
+                    })
+                ]
             })
         ]
     });

@@ -2,7 +2,7 @@ const listProjects2023 =
     [{
         src: "/videos/delucas.gif",
         name: "Mago Bryan De Lucas",
-        link: "https://julietadirzieh.com/",
+        link: "https://bryandelucas.com/",
         description: "React JS, Vite y Tailwind CSS",
     },
     {

@@ -5,7 +5,7 @@ import listProjects2021 from "./listProjects2021";
 const ProjectsDev2021 = () => {
 
     return (
-        <div className="w-full pb-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="w-full pb-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {listProjects2021.map((data, index) => {
                 return (
                     <Project

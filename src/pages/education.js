@@ -7,7 +7,7 @@ import nextI18nextConfig from '../../next-i18next.config'
 export default function Skills() {
   return (
     <>
-      <div className="max-w-full flex flex-col md:flex-row mx-4 lg:mx-auto">
+      <div className="max-w-full items-center flex flex-col md:flex-row mx-4 lg:mx-auto">
         <Aside />
         <HeadLinks />
         <main className='flex-auto mt-6 md:mt-0 flex flex-col px-2 pt-6'>

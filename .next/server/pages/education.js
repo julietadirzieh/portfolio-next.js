@@ -19,8 +19,8 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./src/components/Aside/index.js + 2 modules
-var Aside = __webpack_require__(4127);
+// EXTERNAL MODULE: ./src/components/Aside/index.js + 4 modules
+var Aside = __webpack_require__(4829);
 // EXTERNAL MODULE: ./src/components/HeadLinks/index.js
 var HeadLinks = __webpack_require__(380);
 // EXTERNAL MODULE: external "react"
@@ -146,7 +146,7 @@ var next_i18next_config_default = /*#__PURE__*/__webpack_require__.n(next_i18nex
 function Skills() {
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "max-w-full flex flex-col md:flex-row mx-4 lg:mx-auto",
+            className: "max-w-full items-center flex flex-col md:flex-row mx-4 lg:mx-auto",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx(Aside/* default */.Z, {}),
                 /*#__PURE__*/ jsx_runtime_.jsx(HeadLinks/* default */.Z, {}),
@@ -371,7 +371,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [636,61,440], () => (__webpack_exec__(1537)));
+var __webpack_exports__ = __webpack_require__.X(0, [636,61,345], () => (__webpack_exec__(1537)));
 module.exports = __webpack_exports__;
 
 })();
