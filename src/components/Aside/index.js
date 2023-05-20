@@ -47,6 +47,10 @@ const Aside = () => {
                     link="https://api.whatsapp.com/send?phone=5491158125574"
                     src="/icons/whatsapp.svg"
                 />
+                <ContactLink
+                    link="https://github.com/julietadirzieh"
+                    src="/icons/github.svg"
+                />
             </ContactLinks>
         </aside >
     );

@@ -195,6 +195,10 @@ const Aside = ()=>{
                     /*#__PURE__*/ jsx_runtime_.jsx(ContactLinks_ContactLink, {
                         link: "https://api.whatsapp.com/send?phone=5491158125574",
                         src: "/icons/whatsapp.svg"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(ContactLinks_ContactLink, {
+                        link: "https://github.com/julietadirzieh",
+                        src: "/icons/github.svg"
                     })
                 ]
             })
